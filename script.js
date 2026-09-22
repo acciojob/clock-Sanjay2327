@@ -6,6 +6,6 @@ let currentTime = new Date() ;
 setInterval(
 	function () {
 		currentTime= new Date
-		timeDisplay.innerHTMl = currentTime.toLocaleString();
+		timeDisplay.innerHTML = currentTime.toLocaleString();
 	}, 1000 ;
 ) ;
